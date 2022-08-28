@@ -39,7 +39,7 @@ def password_generator(length):
   
     return password
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     #Getting the user length
     length = int(input("Enter the length of the password:"))
     if length < 8:
